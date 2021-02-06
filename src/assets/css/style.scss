@@ -54,7 +54,7 @@ Default CSS
 $font_family: 'Nunito Sans', sans-serif;
 $template_color: #e12e32;
 $white_color: #ffffff;
-$black_color: #535353;
+$black_color: #1a1a1a;
 $paragraph_color: #828893;
 $black_blue_color: #002c60;
 $font_size: 15px;
@@ -130,7 +130,7 @@ p {
 /*btn*/
 .btn {
 	border-radius: 100px;
-	box-shadow: 0px 15px 25px 0px rgba(255,129,86,0.3);
+	box-shadow: 0px 15px 25px 0px rgba(255, 86, 86, 0.3);
 	padding: 14px 40px;
     border: none;
     display: inline-block;
@@ -151,7 +151,7 @@ p {
         border-color: $white_color;
     }
     &.focus, &:focus {
-        box-shadow: 0px 15px 25px 0px rgba(255,129,86,0.3);
+        box-shadow: 0px 15px 25px 0px rgba(255, 86, 86, 0.3);
     }
     &:not(:disabled):not(.disabled).active, &:not(:disabled):not(.disabled):active, .show > .btn-primary.dropdown-toggle {
         color: $template_color;
