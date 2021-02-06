@@ -161,9 +161,6 @@
                             <input type="text" placeholder="Name*" class="form-control">
                         </div>
                         <div class="form-group">
-                            <input type="email" placeholder="Email*" class="form-control">
-                        </div>
-                        <div class="form-group">
                             <input type="text" placeholder="Phone*" class="form-control">
                         </div>
                         <div class="form-group">
@@ -370,6 +367,84 @@
     <div class="vector"><img src="assets/img/vector-bg.png" alt="vector"></div>
 </section>
 
+<section class="team-area ptb-100">
+    <div class="container">
+        <div class="section-title">
+            <span>Our Team</span>
+            <h3>Our Best Experts</h3>
+            <p>We enjoy adapting our strategies to offer every client the best solutions that are at the forefront of the industry.</p>
+            <a routerLink="/team" class="read-more-btn">Meet All</a>
+        </div>
+        
+        <div class="row">
+            <div class="col-lg-3 col-sm-6 col-md-6">
+                <div class="single-team">
+                    <img src="assets/img/team1.jpg" alt="team">
+                    <div class="team-content">
+                        <h3>Matthew Hunter</h3>
+                        <span>CEO & Founder</span>
+                        <ul>
+                            <li><a href="#"><i class="icofont-facebook"></i></a></li>
+                            <li><a href="#"><i class="icofont-twitter"></i></a></li>
+                            <li><a href="#"><i class="icofont-instagram"></i></a></li>
+                            <li><a href="#"><i class="icofont-linkedin"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-lg-3 col-sm-6 col-md-6">
+                <div class="single-team">
+                    <img src="assets/img/team2.jpg" alt="team">
+                    <div class="team-content">
+                        <h3>David Andy</h3>
+                        <span>Marketing Head</span>
+                        <ul>
+                            <li><a href="#"><i class="icofont-facebook"></i></a></li>
+                            <li><a href="#"><i class="icofont-twitter"></i></a></li>
+                            <li><a href="#"><i class="icofont-instagram"></i></a></li>
+                            <li><a href="#"><i class="icofont-linkedin"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-lg-3 col-sm-6 col-md-6">
+                <div class="single-team">
+                    <img src="assets/img/team3.jpg" alt="team">
+                    <div class="team-content">
+                        <h3>James Amith</h3>
+                        <span>Team Lead</span>
+                        <ul>
+                            <li><a href="#"><i class="icofont-facebook"></i></a></li>
+                            <li><a href="#"><i class="icofont-twitter"></i></a></li>
+                            <li><a href="#"><i class="icofont-instagram"></i></a></li>
+                            <li><a href="#"><i class="icofont-linkedin"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-lg-3 col-sm-6 col-md-6">
+                <div class="single-team">
+                    <img src="assets/img/team4.jpg" alt="team">
+                    <div class="team-content">
+                        <h3>Aston Agar</h3>
+                        <span>Project Manager</span>
+                        <ul>
+                            <li><a href="#"><i class="icofont-facebook"></i></a></li>
+                            <li><a href="#"><i class="icofont-twitter"></i></a></li>
+                            <li><a href="#"><i class="icofont-instagram"></i></a></li>
+                            <li><a href="#"><i class="icofont-linkedin"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
 <section class="funfacts-area ptb-100">
     <div class="container">
         <div class="row">
@@ -414,26 +489,21 @@
             <span>Pricing Table</span>
             <h3>Not any hidden charges, choose your plan</h3>
             <p>We enjoy adapting our strategies to offer every client the best solutions that are at the forefront of the industry.</p>
-            <a routerLink="/about" class="read-more-btn">View More About Us</a>
+            <a routerLink="/pricing" class="read-more-btn">View More About us</a>
         </div>
-        
         <div class="tab-slider-nav">
             <ul class="tab-slider-tabs">
                 <li class="tab-slider-trigger active" rel="monthly">Monthly</li>
                 <li class="tab-slider-trigger" rel="yearly">Yearly</li>
             </ul>
         </div>
-    
         <div class="tab-slider-container">
             <div id="monthly" class="tab-slider-body">
-                <div class="row">
-                    <div class="col-lg-4 col-md-6 col-sm-6">
-                        <div class="pricingTable">
-                            <div class="pricingTable-header">
-                                <h3 class="title">Basic</h3>
-                                <div class="price-value">$59.99 <span>/per month</span></div>
-                            </div>
-                            <ul class="pricing-content">
+                <div class="row m-0">
+                    <div class="col-lg-4 col-sm-6 col-md-6 p-0">
+                        <div class="pricing-plan">
+                            <h3>Enterprise<span>$59</span></h3>       
+                            <ul>
                                 <li>Managment & Marketing</li>
                                 <li>SEO Optimization</li>
                                 <li>25 Analytics Campaign</li>
@@ -442,17 +512,14 @@
                                 <li>1 Free Optimization</li>
                                 <li>24/7 Support</li>
                             </ul>
-                            <a href="#" class="btn btn-primary">Buy Now</a>
+                            <a class="btn btn-primary" routerLink="#">Buy Now</a>
                         </div>
                     </div>
                     
-                    <div class="col-lg-4 col-md-6 col-sm-6">
-                        <div class="pricingTable">
-                            <div class="pricingTable-header">
-                                <h3 class="title">Ultra</h3>
-                                <div class="price-value">$79.99 <span>/per month</span></div>
-                            </div>
-                            <ul class="pricing-content">
+                    <div class="col-lg-4 col-sm-6 col-md-6 p-0">
+                        <div class="pricing-plan" id="most-popular">
+                            <h3>Professional<span>$29</span></h3>   
+                            <ul>
                                 <li>Managment & Marketing</li>
                                 <li>SEO Optimization</li>
                                 <li>25 Analytics Campaign</li>
@@ -461,17 +528,14 @@
                                 <li>1 Free Optimization</li>
                                 <li>24/7 Support</li>
                             </ul>
-                            <a href="#" class="btn btn-primary">Buy Now</a>
+                            <a class="btn btn-primary" routerLink="#">Buy Now</a>
                         </div>
                     </div>
                     
-                    <div class="col-lg-4 col-md-6 col-sm-6 offset-lg-0 offset-sm-3 offset-md-3">
-                        <div class="pricingTable">
-                            <div class="pricingTable-header">
-                                <h3 class="title">Pro</h3>
-                                <div class="price-value">$99.99 <span>/per month</span></div>
-                            </div>
-                            <ul class="pricing-content">
+                    <div class="col-lg-4 col-sm-6 col-md-6 offset-sm-3 p-0 offset-lg-0 offset-md-3">
+                        <div class="pricing-plan">
+                            <h3>Standard<span>$17</span></h3>
+                            <ul>
                                 <li>Managment & Marketing</li>
                                 <li>SEO Optimization</li>
                                 <li>25 Analytics Campaign</li>
@@ -480,21 +544,17 @@
                                 <li>1 Free Optimization</li>
                                 <li>24/7 Support</li>
                             </ul>
-                            <a href="#" class="btn btn-primary">Buy Now</a>
+                            <a class="btn btn-primary" routerLink="#">Buy Now</a>
                         </div>
                     </div>
                 </div>
             </div>
-
             <div id="yearly" class="tab-slider-body">
-                <div class="row">
-                    <div class="col-lg-4 col-md-6 col-sm-6">
-                        <div class="pricingTable">
-                            <div class="pricingTable-header">
-                                <h3 class="title">Basic</h3>
-                                <div class="price-value">$59.99 <span>/per year</span></div>
-                            </div>
-                            <ul class="pricing-content">
+                <div class="row m-0">
+                    <div class="col-lg-4 col-sm-6 col-md-6 p-0">
+                        <div class="pricing-plan">
+                            <h3>Enterprise<span>$99</span></h3>       
+                            <ul>
                                 <li>Managment & Marketing</li>
                                 <li>SEO Optimization</li>
                                 <li>25 Analytics Campaign</li>
@@ -503,17 +563,14 @@
                                 <li>1 Free Optimization</li>
                                 <li>24/7 Support</li>
                             </ul>
-                            <a href="#" class="btn btn-primary">Buy Now</a>
+                            <a class="btn btn-primary" routerLink="#">Buy Now</a>
                         </div>
                     </div>
                     
-                    <div class="col-lg-4 col-md-6 col-sm-6">
-                        <div class="pricingTable">
-                            <div class="pricingTable-header">
-                                <h3 class="title">Ultra</h3>
-                                <div class="price-value">$79.99 <span>/per year</span></div>
-                            </div>
-                            <ul class="pricing-content">
+                    <div class="col-lg-4 col-sm-6 col-md-6 p-0">
+                        <div class="pricing-plan" id="most-popular">
+                            <h3>Professional<span>$129</span></h3>   
+                            <ul>
                                 <li>Managment & Marketing</li>
                                 <li>SEO Optimization</li>
                                 <li>25 Analytics Campaign</li>
@@ -522,17 +579,14 @@
                                 <li>1 Free Optimization</li>
                                 <li>24/7 Support</li>
                             </ul>
-                            <a href="#" class="btn btn-primary">Buy Now</a>
+                            <a class="btn btn-primary" routerLink="#">Buy Now</a>
                         </div>
                     </div>
                     
-                    <div class="col-lg-4 col-md-6 col-sm-6 offset-sm-3 offset-lg-0 offset-md-3">
-                        <div class="pricingTable">
-                            <div class="pricingTable-header">
-                                <h3 class="title">Pro</h3>
-                                <div class="price-value">$99.99 <span>/per year</span></div>
-                            </div>
-                            <ul class="pricing-content">
+                    <div class="col-lg-4 col-sm-6 col-md-6 offset-sm-3 p-0 offset-lg-0 offset-md-3">
+                        <div class="pricing-plan">
+                            <h3>Standard<span>$155</span></h3>
+                            <ul>
                                 <li>Managment & Marketing</li>
                                 <li>SEO Optimization</li>
                                 <li>25 Analytics Campaign</li>
@@ -541,15 +595,16 @@
                                 <li>1 Free Optimization</li>
                                 <li>24/7 Support</li>
                             </ul>
-                            <a href="#" class="btn btn-primary">Buy Now</a>
+                            <a class="btn btn-primary" routerLink="#">Buy Now</a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="rocket fadeInUp wow slow"><img src="assets/img/rocket.png" alt="rocket"></div>
+    <div class="rocket"><img src="assets/img/rocket.png" alt="rocket"></div>
 </section>
+
 
 <div class="partner-area ptb-100 pt-0 bg-fbf9f8">
     <div class="container">
@@ -603,40 +658,59 @@
             <p>We enjoy adapting our strategies to offer every client the best solutions that are at the forefront of the industry.</p>
             <a routerLink="/blog-1" class="read-more-btn">View More News</a>
         </div>
-        <div class="blog-slides owl-carousel owl-theme">
-            <div class="single-blog-item bg-1">
-                <span>Business & Tech</span>
-                <h3><a routerLink="/blog-details">How to Market Your Marketing Agency in 2020</a></h3>
-                <p>Fusce vitae nulla at lorem pret ium semper. Curab itur laoreet, lectus ac digni ssim vest ibul lorem pretium semper lectus ac digni...</p>
-                <a routerLink="/blog-details" title="Read More" class="link-btn"><i class="icofont-stylish-right"></i></a>
+        <div class="row">
+            <div class="col-lg-4 col-md-6">
+                <div class="single-repair-blog-post">
+                    <div class="blog-image">
+                        <a routerLink="#"><img src="assets/img/blog-one.jpg" alt="image"></a>
+                        <div class="tags"><a href="#">Technology</a></div>
+                    </div>
+
+                    <div class="blog-content">
+                        <h3><a routerLink="#">Where and How to watch live stream today</a></h3>
+                        <ul>
+                            <li>July 10, 2019</li>
+                            <li>by: <a href="#">admin</a></li>
+                            <li><a routerLink="#" class="read-more-btn">Read More</a></li>
+                        </ul>
+                    </div>
+                </div>
             </div>
-        
-            <div class="single-blog-item bg-2">
-                <span>Testing & Tools</span>
-                <h3><a routerLink="/blog-details">15 Testing Tools for Optimizing Your Site in 2020</a></h3>
-                <p>Fusce vitae nulla at lorem pret ium semper. Curab itur laoreet, lectus ac digni ssim vest ibul lorem pretium semper lectus ac digni...</p>
-                <a routerLink="/blog-details" title="Read More" class="link-btn"><i class="icofont-stylish-right"></i></a>
+
+            <div class="col-lg-4 col-md-6">
+                <div class="single-repair-blog-post">
+                    <div class="blog-image">
+                        <a routerLink="#"><img src="assets/img/blog-two.jpg" alt="image"></a>
+                        <div class="tags"><a href="#">Technology</a></div>
+                    </div>
+
+                    <div class="blog-content">
+                        <h3><a routerLink="#">TikTok illegally collecting data, sharing with China</a></h3>
+                        <ul>
+                            <li>July 10, 2019</li>
+                            <li>by: <a href="#">admin</a></li>
+                            <li><a routerLink="#" class="read-more-btn">Read More</a></li>
+                        </ul>
+                    </div>
+                </div>
             </div>
-        
-            <div class="single-blog-item bg-3">
-                <span>User & Experience</span>
-                <h3><a routerLink="/blog-details">12 Tried-and-True Ways to Improve User Experience</a></h3>
-                <p>Fusce vitae nulla at lorem pret ium semper. Curab itur laoreet, lectus ac digni ssim vest ibul lorem pretium semper lectus ac digni...</p>
-                <a routerLink="/blog-details" title="Read More" class="link-btn"><i class="icofont-stylish-right"></i></a>
-            </div>
-        
-            <div class="single-blog-item bg-4">
-                <span>Apps & Trend</span>
-                <h3><a routerLink="/blog-details">The 13 Best Time Tracking Apps of 2020</a></h3>
-                <p>Fusce vitae nulla at lorem pret ium semper. Curab itur laoreet, lectus ac digni ssim vest ibul lorem pretium semper lectus ac digni...</p>
-                <a routerLink="/blog-details" title="Read More" class="link-btn"><i class="icofont-stylish-right"></i></a>
-            </div>
-        
-            <div class="single-blog-item bg-5">
-                <span>Business & Document</span>
-                <h3><a routerLink="/blog-details">How to Document Processes to Scale Your Agency Faster</a></h3>
-                <p>Fusce vitae nulla at lorem pret ium semper. Curab itur laoreet, lectus ac digni ssim vest ibul lorem pretium semper lectus ac digni...</p>
-                <a routerLink="/blog-details" title="Read More" class="link-btn"><i class="icofont-stylish-right"></i></a>
+
+            <div class="col-lg-4 col-md-6 offset-lg-0 offset-md-3">
+                <div class="single-repair-blog-post">
+                    <div class="blog-image">
+                        <a routerLink="#"><img src="assets/img/blog-three.jpg" alt="image"></a>
+                        <div class="tags"><a href="#">Technology</a></div>
+                    </div>
+
+                    <div class="blog-content">
+                        <h3><a routerLink="#">The five devices you need to work anytime and anywhere</a></h3>
+                        <ul>
+                            <li>July 10, 2019</li>
+                            <li>by: <a href="#">admin</a></li>
+                            <li><a routerLink="#" class="read-more-btn">Read More</a></li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
