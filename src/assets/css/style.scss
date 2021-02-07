@@ -2253,7 +2253,7 @@ Pricing CSS
 	padding-left: 0;
 	list-style: none;
 	position: relative;
-	border-radius: 35px;
+	border-radius: 5px;
     background: $white_color;
 
     &::after {
@@ -2267,7 +2267,7 @@ Pricing CSS
         -moz-transition: $transition;
         -webkit-transition: $transition;
         transition: $transition;
-        border-radius: 35px;
+        border-radius: 5px;
     }
     &.slide::after {
         left: 50%;
