@@ -28,6 +28,27 @@ import { BlogTwoComponent } from './components/pages/blog-two/blog-two.component
 import { BlogDetailsComponent } from './components/pages/blog-details/blog-details.component';
 import { ErrorComponent } from './components/pages/error/error.component';
 import { PricingComponent } from './components/pages/pricing/pricing.component';
+import { SouzaComponent } from './components/pages/souza/souza.component';
+import { TattoosaComponent } from './components/pages/tattoosa/tattoosa.component';
+import { BimegahComponent } from './components/pages/bimegah/bimegah.component';
+import { ProjetosComponent } from './components/pages/projetos/projetos.component';
+import { ServicosComponent } from './components/pages/servicos/servicos.component';
+import { MarketingDigitalComponent } from './components/pages/marketing-digital/marketing-digital.component';
+import { LogoIdentidadeComponent } from './components/pages/logo-identidade/logo-identidade.component';
+import { SitesLojasComponent } from './components/pages/sites-lojas/sites-lojas.component';
+import { TiComponent } from './components/pages/ti/ti.component';
+import { ConsultoriaComponent } from './components/pages/consultoria/consultoria.component';
+import { SeoAdsComponent } from './components/pages/seo-ads/seo-ads.component';
+import { SegurancaComponent } from './components/pages/seguranca/seguranca.component';
+import { CrmComponent } from './components/pages/crm/crm.component';
+import { RedesSociaisComponent } from './components/pages/redes-sociais/redes-sociais.component';
+import { DesignerGraficoComponent } from './components/pages/designer-grafico/designer-grafico.component';
+import { SolucoesComponent } from './components/pages/solucoes/solucoes.component';
+import { CopywritingComponent } from './components/pages/copywriting/copywriting.component';
+import { ContatoComponent } from './components/pages/contato/contato.component';
+import { BlogComponent } from './components/pages/blog/blog.component';
+import { PacotesComponent } from './components/pages/pacotes/pacotes.component';
+import { AspotbizComponent } from './components/pages/aspotbiz/aspotbiz.component';
 
 @NgModule({
   declarations: [
@@ -57,6 +78,27 @@ import { PricingComponent } from './components/pages/pricing/pricing.component';
     BlogDetailsComponent,
     ErrorComponent,
     PricingComponent,
+    SouzaComponent,
+    TattoosaComponent,
+    BimegahComponent,
+    ProjetosComponent,
+    ServicosComponent,
+    MarketingDigitalComponent,
+    LogoIdentidadeComponent,
+    SitesLojasComponent,
+    TiComponent,
+    ConsultoriaComponent,
+    SeoAdsComponent,
+    SegurancaComponent,
+    CrmComponent,
+    RedesSociaisComponent,
+    DesignerGraficoComponent,
+    SolucoesComponent,
+    CopywritingComponent,
+    ContatoComponent,
+    BlogComponent,
+    PacotesComponent,
+    AspotbizComponent, 
   ],
   imports: [
     BrowserModule,
