@@ -40,6 +40,7 @@ import { ContatoComponent } from './components/pages/contato/contato.component';
 import { BlogComponent } from './components/pages/blog/blog.component';
 import { PacotesComponent } from './components/pages/pacotes/pacotes.component';
 import { AspotbizComponent } from './components/pages/aspotbiz/aspotbiz.component';
+import { RedesSociaisPizzariaComponent } from './components/pages/redes-sociais-pizzaria/redes-sociais-pizzaria.component';
 
 const routes: Routes = [
     {path: '', component: HomeOneComponent},
@@ -83,7 +84,7 @@ const routes: Routes = [
     {path: 'blog', component: BlogComponent},
     {path: 'pacotes', component: PacotesComponent},
     {path: 'aspotbiz', component: AspotbizComponent},
-    
+    {path: 'redes-sociais-pizzaria', component: RedesSociaisPizzariaComponent},
 
     // Here add new pages component
 

@@ -49,6 +49,7 @@ import { ContatoComponent } from './components/pages/contato/contato.component';
 import { BlogComponent } from './components/pages/blog/blog.component';
 import { PacotesComponent } from './components/pages/pacotes/pacotes.component';
 import { AspotbizComponent } from './components/pages/aspotbiz/aspotbiz.component';
+import { RedesSociaisPizzariaComponent } from './components/pages/redes-sociais-pizzaria/redes-sociais-pizzaria.component';
 
 @NgModule({
   declarations: [
@@ -98,7 +99,8 @@ import { AspotbizComponent } from './components/pages/aspotbiz/aspotbiz.componen
     ContatoComponent,
     BlogComponent,
     PacotesComponent,
-    AspotbizComponent, 
+    AspotbizComponent,
+    RedesSociaisPizzariaComponent, 
   ],
   imports: [
     BrowserModule,
