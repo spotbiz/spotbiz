@@ -103,9 +103,10 @@ img {
 .d-table {
     width: 100%;
     height: 100%;
+    padding-top: 80px;
 
     &-cell {
-        vertical-align: middle;
+        /*vertical-align: middle;*/
     }
 }
 
@@ -233,7 +234,7 @@ p {
 
     span {
         color: $template_color;
-        text-transform: capitalize;
+        text-transform: uppercase;
 
         font: {
             size: 16px;
@@ -316,7 +317,7 @@ p {
     outline: 0;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
-    border-radius: 5px;
+    border-radius: 100px;
     -moz-transition: all .3s ease;
     -webkit-transition: all .3s ease;
     transition: all .3s ease;
@@ -1004,7 +1005,7 @@ Main Banner CSS
 ===============================*/
 .main-banner {
     position: relative;
-    height: 730px;
+    height: 600px;
     overflow: hidden;
 
     background: {
@@ -1299,9 +1300,9 @@ About CSS
 
 .read-more-btn {
     text-transform: uppercase;
-    font-weight: 700;
+    font-weight: 500;
     position: relative;
-    color: $template_color;
+    color: $black_color;
     z-index: 1;
     display: inline-block;
 
@@ -1653,14 +1654,14 @@ Services CSS
     position: relative;
     z-index: 1;
 
-    &.bg {
+    /*&.bg {
         background: {
             image: url(../../assets/img/bg-pattern-2.png);
             attachment: fixed;
         }
 
         ;
-    }
+    }*/
 }
 
 .single-services {
@@ -1707,7 +1708,7 @@ Services CSS
         font-size: 40px;
         color: $template_color;
         line-height: 80px;
-        border-radius: 5px;
+        border-radius: 100px;
         -webkit-transition: $transition;
         -moz-transition: $transition;
         transition: $transition;
@@ -1851,7 +1852,7 @@ Analysis CSS
             display: block;
             width: 100%;
             padding: 13px 40px;
-            border-radius: 5px;
+            border-radius: 100px;
             margin-top: 20px;
         }
     }
@@ -2264,9 +2265,10 @@ Working Process CSS
         font-size: 40px;
         color: $template_color;
         line-height: 80px;
-        -webkit-clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+        border-radius: 100px;
+        /*-webkit-clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
         clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
-        -webkit-transition: $transition;
+        -webkit-transition: $transition;*/
         -moz-transition: $transition;
         transition: $transition;
 
@@ -2293,7 +2295,7 @@ Working Process CSS
 
         font: {
             size: 22px;
-            weight: 700;
+            weight: 500;
         }
 
         ;
@@ -2760,6 +2762,11 @@ Pricing CSS
     width: 100%;
 }
 
+.border-vermelha {
+    border: solid 0.5px #d5161a;
+    box-shadow: 7px 5px 30px 0 rgb(72 73 121 / 15%) !important;
+}
+
 .pricingTable {
     padding-bottom: 30px;
     background: $white_color;
@@ -2767,7 +2774,7 @@ Pricing CSS
     z-index: 1;
     position: relative;
     border-radius: 5px;
-    background-image: url(../../assets/img/patt.png);
+    /*background-image: url(../../assets/img/patt.png);*/
     background-position: center center;
     overflow: hidden;
     -webkit-box-shadow: 7px 5px 30px 0 rgba(72, 73, 121, 0.15);
@@ -2777,11 +2784,12 @@ Pricing CSS
     transition: $transition;
 
     .pricingTable-header {
-        padding: 30px 15px 45px;
-        background: $template_color;
-        -webkit-clip-path: polygon(50% 100%, 100% 60%, 100% 0, 0 0, 0 60%);
+        padding: 30px 15px 0px;
+        background: none;
+        border-bottom: solid 0.05px #494f6524;
+        /*-webkit-clip-path: polygon(50% 100%, 100% 60%, 100% 0, 0 0, 0 60%);
         clip-path: polygon(50% 100%, 100% 60%, 100% 0, 0 0, 0 60%);
-        position: relative;
+        position: relative;*/
 
         &::before {
             content: "";
@@ -2796,10 +2804,14 @@ Pricing CSS
             -webkit-transition: $transition;
             transition: $transition;
         }
+
+        p {
+            margin-top: -15px;
+        }
     }
 
     .title {
-        color: $white_color;
+        color: $black_color;
         text-transform: uppercase;
         margin-bottom: 15px;
 
@@ -2813,8 +2825,8 @@ Pricing CSS
 
     .price-value {
         display: block;
-        color: $white_color;
-        margin-bottom: 30px;
+        color: $template_color;
+        margin-bottom: 10px;
 
         font: {
             size: 40px;
@@ -2825,7 +2837,7 @@ Pricing CSS
 
         span {
             font-size: 15px;
-            color: $white_color;
+            color: $template_color;
             margin-left: -10px;
         }
     }
@@ -2866,6 +2878,25 @@ Pricing CSS
                 right: 50%;
             }
         }
+    }
+
+    p {
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    i.icofont-verification-check {
+        color: #d5161a;
+    }
+
+    i.icofont-close {
+        font-size: 16px;
+        font-weight: 900;
+    }
+
+    h4 {
+        font-size: 20px;
+        margin-top: 35px;
     }
 }
 
@@ -5042,7 +5073,7 @@ Footer CSS
         width: 100%;
         height: 100%;
         z-index: -1;
-        background: url(../../assets/img/map.png);
+        /*background: url(../../assets/img/map.png);*/
         opacity: .05;
         background-attachment: fixed;
     }
@@ -5173,10 +5204,12 @@ Footer CSS
     h3 {
         text-transform: uppercase;
         margin-bottom: 30px;
+        color: #d5161a;
 
         font: {
             size: 22px;
             weight: 700;
+
         }
 
         ;
@@ -5289,13 +5322,15 @@ Footer CSS
             margin-right: 5px;
 
             a {
-                border: 1px solid $black_color;
+                /*border: 1px solid $black_color;*/
+                background-color: #dc3545;
                 width: 32px;
                 height: 32px;
                 text-align: center;
                 display: inline-block;
                 line-height: 31px;
                 border-radius: 50%;
+                color: $white_color;
 
                 &:hover,
                 &:focus {
@@ -5309,7 +5344,8 @@ Footer CSS
 }
 
 .copyright-area {
-    background: $black_color;
+    background: transparent;
+    border-top: solid 0.05px #494f6524;
     margin-top: 70px;
 
     padding: {
@@ -5320,15 +5356,15 @@ Footer CSS
     ;
 
     p {
-        color: $white_color;
+        color: $black_color;
 
         a {
             display: inline-block;
-            color: $white_color;
+            color: $template_color;
             font-weight: 700;
 
             &:hover {
-                color: $template_color;
+                color: $black_color;
             }
         }
     }
@@ -5366,7 +5402,7 @@ Footer CSS
 
             a {
                 display: inline-block;
-                color: $white_color;
+                color: $black_color;
 
                 &:hover {
                     color: $template_color;
