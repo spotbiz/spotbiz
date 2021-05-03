@@ -144,6 +144,29 @@ p {
     ;
 }
 
+//////* Efeito Seleção de texto */
+//////
+h1::selection,
+h2::selection,
+h3::selection,
+h4::selection,
+h5::selection,
+h6::selection,
+h1::selection,
+h2::selection,
+h3::selection,
+h4::selection,
+h5::selection,
+h6::selection,
+a::selection,
+li::selection,
+ul::selection,
+span::selection,
+p::selection {
+    color: #ffffff;
+    background-color: #494f65;
+}
+
 .bg-fbf9f8 {
     background: #f9f9f9;
     border-top: 1px solid #ebebeb;
@@ -155,7 +178,7 @@ p {
 
 .ptb-100 {
     padding: {
-        top: 100px;
+        top: 60px;
         bottom: 100px;
     }
 
@@ -1100,7 +1123,7 @@ Main Banner CSS
 
 .hero-image {
     position: absolute;
-    right: -100px;
+    /*right: -100px;*/
     /*bottom: 30px;*/
     width: 725px;
 }
@@ -1828,6 +1851,7 @@ Analysis CSS
 .analysis-area {
     position: relative;
     overflow: hidden;
+    padding-bottom: 60px !important;
 }
 
 .analysis-form {
@@ -2258,14 +2282,14 @@ Working Process CSS
     }
 
     .icon {
-        background: #f4f6fd;
+        background: #d5161a;
         display: inline-block;
         width: 80px;
         height: 80px;
         position: relative;
         z-index: 1;
         font-size: 40px;
-        color: $template_color;
+        color: $white_color;
         line-height: 80px;
         border-radius: 100px;
         /*-webkit-clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
@@ -3090,6 +3114,7 @@ Partner CSS
     &.owl-theme {
         .owl-dots {
             margin-top: 40px !important;
+            display: none;
         }
     }
 }
@@ -5586,4 +5611,27 @@ Go Top CSS
         color: $white_color;
         background: $template_color;
     }
+}
+
+////////*Ajuste Hero Image - Loja Online*//////
+@media (min-width: 992px) {
+    .doido {
+        right: -560px;
+    }
+}
+
+/////////*barra rolagem navegador*////////////
+
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f3f5fe;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #dc3545;
+    border-radius: 100px;
 }
