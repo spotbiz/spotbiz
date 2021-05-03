@@ -40,7 +40,7 @@
                 "src/assets/css/magnific-popup.min.css",
                 "src/assets/css/style.scss",
                 "src/assets/css/responsive.scss",
-                "src/styles.scss"
+                "src/styles.scss"                
             ],
             "scripts": [
                 "node_modules/jquery/dist/jquery.min.js",
