@@ -1865,7 +1865,7 @@ Analysis CSS
 
     span {
         color: $template_color;
-        /*text-transform: capitalize;*/
+        text-transform: uppercase;
 
         font: {
             size: 16px;
@@ -2718,7 +2718,7 @@ Pricing CSS
     padding-left: 0;
     list-style: none;
     position: relative;
-    border-radius: 5px;
+    border-radius: 100px;
     background: $white_color;
 
     &::after {
@@ -2732,7 +2732,7 @@ Pricing CSS
         -moz-transition: $transition;
         -webkit-transition: $transition;
         transition: $transition;
-        border-radius: 5px;
+        border-radius: 100px;
     }
 
     &.slide::after {
@@ -2764,7 +2764,7 @@ Pricing CSS
 
 .border-vermelha {
     border: solid 0.5px #d5161a;
-    box-shadow: 7px 5px 30px 0 rgb(72 73 121 / 15%) !important;
+    box-shadow: 7px 5px 30px 0 rgb(255 0 0 / 15%) !important;
 }
 
 .pricingTable {
