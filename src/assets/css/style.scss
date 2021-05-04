@@ -2274,11 +2274,11 @@ Working Process CSS
         content: '';
         position: absolute;
         z-index: 1;
-        /*background: url(../../assets/img/arrow-big.png) no-repeat center center;*/
+        background: url(../../assets/img/arrow-big.png) no-repeat center center;
         width: 217px;
-        height: 210px;
-        top: -20px;
-        right: -120px;
+        height: 180px;
+        top: 75px;
+        right: -123px;
     }
 
     .icon {
@@ -2317,7 +2317,7 @@ Working Process CSS
 
     h3 {
         margin-top: 30px;
-        margin-bottom: 0;
+        margin-bottom: 15px;
 
         font: {
             size: 22px;
