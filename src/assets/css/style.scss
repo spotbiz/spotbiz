@@ -2267,6 +2267,7 @@ Working Process CSS
     padding: 25px;
     border-radius: 5px;
     position: relative;
+    border: solid 0.5px #dc3545;
     -webkit-box-shadow: 7px 5px 30px rgba(72, 73, 121, 0.15);
     box-shadow: 7px 5px 30px rgba(72, 73, 121, 0.15);
 
@@ -2277,7 +2278,7 @@ Working Process CSS
         background: url(../../assets/img/arrow-big.png) no-repeat center center;
         width: 217px;
         height: 180px;
-        top: 75px;
+        top: 35px;
         right: -123px;
     }
 
@@ -2325,6 +2326,11 @@ Working Process CSS
         }
 
         ;
+    }
+
+    span {
+        color: #dc3545;
+        font-weight: 700;
     }
 }
 
