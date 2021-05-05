@@ -1063,6 +1063,7 @@ Main Banner CSS
 .hero-content {
     h1 {
         line-height: 1.1;
+        padding-top: 60px;
 
         font: {
             size: 52px;
@@ -1708,6 +1709,7 @@ Services CSS
 
         .icon {
             border-radius: 50%;
+            background: $white_color;
         }
 
         p,
@@ -1726,7 +1728,7 @@ Services CSS
     }
 
     .icon {
-        background: #f4f6fd;
+        background: #ffecee;
         display: inline-block;
         width: 80px;
         height: 80px;
@@ -2267,7 +2269,6 @@ Working Process CSS
     padding: 25px;
     border-radius: 5px;
     position: relative;
-    border: solid 0.5px #dc3545;
     -webkit-box-shadow: 7px 5px 30px rgba(72, 73, 121, 0.15);
     box-shadow: 7px 5px 30px rgba(72, 73, 121, 0.15);
 
@@ -2280,6 +2281,31 @@ Working Process CSS
         height: 180px;
         top: 35px;
         right: -123px;
+    }
+
+    &:hover {
+        background: $template_color;
+        -webkit-transform: translateY(-10px);
+        transform: translateY(-10px);
+
+        .icon {
+            border-radius: 50%;
+        }
+
+        span,
+        p,
+        h3 {
+            color: $white_color;
+        }
+
+        .read-more-btn {
+            color: $white_color;
+
+            &::before {
+                background: $white_color;
+            }
+        }
+
     }
 
     .icon {
@@ -2319,9 +2345,12 @@ Working Process CSS
     h3 {
         margin-top: 30px;
         margin-bottom: 15px;
+        background-color: #d5d5d536;
+        padding: 10px 2px;
+        border-radius: 100px;
 
         font: {
-            size: 22px;
+            size: 20px;
             weight: 500;
         }
 
@@ -2438,6 +2467,21 @@ Testimonial CSS
         bottom: auto;
         top: 0;
     }
+
+    h3 {
+        max-width: 100%;
+    }
+
+    p {
+        max-width: 100%;
+    }
+}
+
+.testimonial-area .section-title {
+    text-align: center;
+    margin-bottom: 60px;
+    position: relative;
+
 }
 
 .single-feedback {
@@ -2460,20 +2504,22 @@ Testimonial CSS
 
     .client-info {
         position: relative;
-        padding-left: 118px;
-        margin-bottom: 30px;
+        padding-left: 80px;
+        margin-bottom: 10px;
 
         .img {
             position: absolute;
             left: 0;
-            top: -45px;
-            width: 100px;
+            top: 0px;
+            width: 120px;
             -moz-transition: $transition;
             -webkit-transition: $transition;
             transition: $transition;
 
             img {
-                border-radius: 50%;
+                border-radius: 0%;
+                width: 55%;
+                padding-top: 0px;
             }
         }
 
@@ -2490,13 +2536,11 @@ Testimonial CSS
 
         span {
             display: block;
-            font-size: 15px;
+            font-size: 12px;
             color: $paragraph_color;
-            margin-top: 5px;
         }
     }
 
-    p,
     .client-info h4,
     .client-info span {
         -moz-transition: $transition;
@@ -2504,21 +2548,31 @@ Testimonial CSS
         transition: $transition;
     }
 
+    p {
+        -moz-transition: $transition;
+        -webkit-transition: $transition;
+        transition: $transition;
+        color: #aeb6bc;
+        font-style: italic;
+        font-size: 13px;
+
+    }
+
     i {
-        font-size: 104px;
-        position: absolute;
+        font-size: 14px;
+        padding-left: 80px;
         top: 50%;
         left: 50%;
-        color: #6f8ba4;
-        z-index: -1;
-        opacity: .10;
+        color: #ffd000;
+        /*z-index: -1;
+        opacity: .10;*/
         -moz-transition: $transition;
         -webkit-transition: $transition;
         transition: $transition;
 
         margin: {
-            top: -6px;
-            left: -70px;
+            top: 2px;
+            left: -75px;
         }
 
         ;
@@ -4069,7 +4123,7 @@ Subscribe CSS
     ;
 
     h2 {
-        text-transform: capitalize;
+        /*text-transform: capitalize;*/
         margin-bottom: 30px;
 
         font: {
@@ -4864,12 +4918,14 @@ Repair Blog CSS
     .blog-image {
         overflow: hidden;
         position: relative;
+        border-radius: 8px;
 
         a {
             display: block;
 
             img {
                 transition: all 1.5s ease-out;
+                border-radius: 8px;
             }
         }
 

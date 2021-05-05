@@ -112,6 +112,7 @@ $value_six: 1550px;
         h1 {
             font-size: 38px;
             line-height: 1.3;
+            padding-top: 0px;
 
             span {
                 &::after {
@@ -668,8 +669,8 @@ $value_six: 1550px;
         margin-top: 24px;
 
         .client-info {
-            padding-left: 117px;
-            margin-bottom: 25px;
+            /*padding-left: 117px;
+            margin-bottom: 25px;*/
 
             h4 {
                 font-size: 19px;
@@ -1984,7 +1985,7 @@ $value_six: 1550px;
 @media only #{$media} and ($feature_min : $value_six) {
 
     .hero-image {
-        right: 0;
+        /*right: 0;*/
         bottom: 90px;
         width: 830px;
     }
