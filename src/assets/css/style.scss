@@ -1038,7 +1038,7 @@ Navbar CSS
                     opacity: 1;
                     visibility: visible;
                     margin-top: 0;
-                    border: 1px solid #eeeeee;
+                    border: none;
 
                     padding: {
                         top: 5px;
@@ -5779,10 +5779,14 @@ Go Top CSS
 }
 
 .movimento :hover {
-    background-color: #f9fcff;
+    background-color: #fafafa;
 
     h6 {
         color: $template_color;
+    }
+
+    p {
+        color: #bdc0cc !important;
     }
 }
 
@@ -5806,6 +5810,7 @@ Go Top CSS
         color: #7a829f !important;
         text-transform: none !important;
     }
+
 
 
 }
@@ -5832,6 +5837,11 @@ Go Top CSS
     li {
         margin-top: 15px;
     }
+}
+
+.detalhe {
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 @media only screen and (max-width: 431px) {
