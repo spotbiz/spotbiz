@@ -1818,6 +1818,13 @@ Services CSS
         -webkit-transition: $transition;
         -moz-transition: $transition;
         transition: $transition;
+
+        img {
+            width: 40px;
+            height: 40px;
+            vertical-align: middle;
+            padding-bottom: 3px;
+        }
     }
 
     h3 {
