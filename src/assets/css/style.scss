@@ -2350,39 +2350,61 @@ Project Details CSS
 /*=============================
 Working Process CSS
 ===============================*/
-.single-work-process {
+.working-process-area {
+    .processo {
+        background: transparent linear-gradient(180deg, #FFFFFF 0%, #fafafa 100%) 0% 0% no-repeat padding-box;
+        border-radius: 66px;
+    }
+
+    .row {
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+}
+
+.working-process-area .section-title {
     text-align: center;
-    background: $white_color;
-    padding: 25px;
+
+    h3,
+    p {
+        max-width: none;
+    }
+}
+
+.single-work-process {
+    text-align: left;
+    background: none;
+    padding: 15px;
+    padding-bottom: 25px;
     border-radius: 5px;
     position: relative;
-    -webkit-box-shadow: 7px 5px 30px rgba(72, 73, 121, 0.15);
-    box-shadow: 7px 5px 30px rgba(72, 73, 121, 0.15);
+    /*-webkit-box-shadow: 7px 5px 30px rgba(72, 73, 121, 0.15);
+    box-shadow: 7px 5px 30px rgba(72, 73, 121, 0.15);*/
 
-    &::before {
+    /*&::before {
         content: '';
         position: absolute;
         z-index: 1;
         background: url(../../assets/img/arrow-big.png) no-repeat center center;
         width: 217px;
         height: 180px;
-        top: 35px;
+        top: 65px;
         right: -123px;
-    }
+    }*/
 
     &:hover {
-        background: $template_color;
         -webkit-transform: translateY(-10px);
         transform: translateY(-10px);
 
         .icon {
             border-radius: 50%;
+            background-color: #ffecee;
         }
 
         span,
         p,
         h3 {
-            color: $white_color;
+            color: $black_color;
         }
 
         .read-more-btn {
@@ -2396,16 +2418,16 @@ Working Process CSS
     }
 
     .icon {
-        background: #d5161a;
-        display: inline-block;
-        width: 80px;
-        height: 80px;
+        background: #f5f5f5;
+        width: 64px;
+        height: 64px;
         position: relative;
         z-index: 1;
         font-size: 40px;
         color: $white_color;
-        line-height: 80px;
+        /*line-height: 80px;*/
         border-radius: 100px;
+        text-align: center;
         /*-webkit-clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
         clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
         -webkit-transition: $transition;*/
@@ -2427,14 +2449,17 @@ Working Process CSS
             -moz-transition: $transition;
             transition: $transition;
         }
+
+        img {
+            width: 32px;
+            height: 32px;
+        }
     }
 
     h3 {
-        margin-top: 30px;
-        margin-bottom: 15px;
-        background-color: #d5d5d536;
+        margin-top: 10px;
+        margin-bottom: 10px;
         padding: 10px 2px;
-        border-radius: 100px;
 
         font: {
             size: 20px;
@@ -5849,6 +5874,85 @@ Go Top CSS
 .detalhe {
     margin-top: 15px;
     margin-bottom: 15px;
+}
+
+.review-item .review-content {
+    padding: 40px 30px 50px;
+    border-radius: 20px;
+    background: transparent linear-gradient(180deg, #ffffff 0%, #fafafa 40%, #f1f1f1 100%) 0% 0% no-repeat padding-box;
+    /*background: -webkit-linear-gradient(16deg, #6c01d6 0, #712de5 35%, #7658f4 100%);*/
+    position: relative;
+
+    p {
+        font-size: 14px;
+    }
+
+    i {
+        font-size: 12px;
+        margin-right: 2px;
+        opacity: 0.25;
+    }
+
+}
+
+.review-item .review-thumb {
+    margin: -30px 30px 0;
+    padding: 15px 30px;
+    background: -webkit-linear-gradient(16deg, #dc3545 0, #d5161a 100%);
+    ;
+    border-radius: 10px;
+    position: relative;
+    z-index: 1;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+
+    a {
+        color: $white_color;
+    }
+
+    span {
+        color: #ffb9c0;
+        font-size: 12px;
+    }
+}
+
+.review-item .review-thumb .review-author-thumb {
+    width: 55px;
+    padding: 6px;
+    border-radius: 50%;
+    border: 1px solid #ffffff;
+    overflow: hidden;
+
+    a {
+        display: block;
+        border-radius: 50%;
+        border: 1px solid #3b3b3b;
+        overflow: hidden;
+    }
+}
+
+.review-item .review-thumb .review-author-content {
+    align-items: center;
+    justify-content: space-between;
+    width: calc(100% - 55px);
+    padding-left: 18px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.review-item .review-thumb .review-author-content .left {
+    width: calc(100% - 20px);
+}
+
+.review-item .review-thumb .review-author-content .icon {
+    width: 20px;
+    text-align: right;
+
+    a {
+        color: #ffb9c0;
+    }
 }
 
 @media only screen and (max-width: 431px) {
