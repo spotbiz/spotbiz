@@ -179,7 +179,7 @@ p::selection {
 .ptb-100 {
     padding: {
         top: 60px;
-        bottom: 100px;
+        bottom: 80px;
     }
 
     ;
@@ -1772,9 +1772,9 @@ Services CSS
 .single-services {
     text-align: center;
     background: $white_color;
-    padding: 25px;
-    margin-bottom: 30px;
-    border-radius: 5px;
+    padding: 1rem;
+    margin-bottom: 15px;
+    border-radius: 15px;
     -webkit-box-shadow: 7px 5px 30px rgba(72, 73, 121, 0.15);
     box-shadow: 7px 5px 30px rgba(72, 73, 121, 0.15);
     -webkit-transition: $transition;
@@ -1782,18 +1782,13 @@ Services CSS
     transition: $transition;
 
     &:hover {
-        background: $template_color;
+        background: #dc35460e;
         -webkit-transform: translateY(-10px);
         transform: translateY(-10px);
 
-        .icon {
-            border-radius: 50%;
-            background: $white_color;
-        }
-
         p,
         h3 {
-            color: $white_color;
+            color: $black_color;
         }
 
         .read-more-btn {
@@ -1807,38 +1802,40 @@ Services CSS
     }
 
     .icon {
-        background: #ffecee;
+        background: none;
         display: inline-block;
-        width: 80px;
-        height: 80px;
-        font-size: 40px;
+        width: 32px;
+        height: 32px;
+        font-size: 32px;
         color: $template_color;
-        line-height: 80px;
+        line-height: 38px;
         border-radius: 100px;
         -webkit-transition: $transition;
         -moz-transition: $transition;
         transition: $transition;
 
         img {
-            width: 40px;
-            height: 40px;
+            /*width: 40px;
+            height: 40px;*/
             vertical-align: middle;
-            padding-bottom: 3px;
         }
     }
 
     h3 {
         font: {
-            size: 22px;
-            weight: 700;
+            size: 18px;
+            weight: 500;
+
         }
 
+        margin-left: 10px;
+        margin-top: 4px;
         ;
 
-        margin: {
+        /*margin: {
             bottom: 15px;
             top: 25px;
-        }
+        }*/
 
         ;
     }
@@ -1853,6 +1850,18 @@ Services CSS
         -moz-transition: $transition;
         transition: $transition;
     }
+}
+
+.service-dentro {
+    box-sizing: border-box;
+    margin: 0px;
+    min-width: 0px;
+    flex-direction: row;
+    align-items: flex-start;
+    text-align: unset;
+    -webkit-box-pack: center;
+    justify-content: center;
+    display: flex;
 }
 
 .services-box {
@@ -5959,4 +5968,256 @@ Go Top CSS
     .ajuste {
         display: block !important;
     }
+}
+
+///////////////////*Acrescentado*/////////////////////
+.css-15owl46 {
+    box-sizing: border-box;
+    margin: 0;
+    min-width: 0;
+    position: relative;
+}
+
+.css-xi606m {
+    text-align: center;
+}
+
+.css-12vcehk {
+    vertical-align: middle;
+    border-style: solid;
+    border-width: 5px;
+    border-color: var(--theme-ui-colors-white, #fff);
+    box-shadow: rgb(140 152 164 / 13%) 0px 0px 35px;
+    border-radius: 1rem;
+}
+
+.gatsby-image-wrapper-constrained {
+    display: inline-block;
+}
+
+.gatsby-image-wrapper {
+    position: relative;
+    overflow: hidden;
+}
+
+.css-xi606m {
+    text-align: center;
+}
+
+.gatsby-image-wrapper [data-main-image] {
+    transform: translateZ(0);
+    transition: opacity .25s linear;
+    will-change: opacity;
+}
+
+.gatsby-image-wrapper img {
+    all: inherit;
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    margin: 0;
+    max-width: none;
+    padding: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+}
+
+.css-1i1249h {
+    box-sizing: border-box;
+    margin: 0px;
+    min-width: 0px;
+    position: relative;
+
+    .tabs_tabList {
+        display: flex;
+        -webkit-box-pack: center;
+        justify-content: center;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .tabs_tab {
+        list-style: none;
+        width: 14px;
+        height: 14px;
+        text-indent: -9999px;
+        background-color: var(--theme-ui-colors-omega, #a0aec0);
+        border-radius: 9999px;
+        cursor: pointer;
+        margin-left: 0.25rem;
+        margin-right: 0.25rem;
+    }
+
+    .tabs_selectedTab {
+        background-color: var(--theme-ui-colors-alpha, #6366f1);
+    }
+}
+
+.css-ad53z1 {
+    box-sizing: border-box;
+    margin: 0;
+    min-width: auto;
+    border-top-style: solid;
+    border-top-color: transparent;
+    border-top-width: 2px;
+    height: 0;
+}
+
+.css-z1ai9x {
+    box-sizing: border-box;
+    margin: 0px 0.5rem 0px 0px;
+    appearance: none;
+    text-align: center;
+    line-height: inherit;
+    text-decoration: none;
+    font-size: inherit;
+    border: 1px;
+    font-family: Poppins,
+        sans-serif;
+    display: inline-flex;
+    -webkit-box-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+    outline: 0px;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    cursor: pointer;
+    white-space: pre;
+    transition: all 250ms ease 0s;
+    z-index: 0;
+    color: var(--theme-ui-colors-alpha, #6366f1);
+    min-width: auto;
+    border-radius: 9999px;
+    box-shadow: rgb(140 152 164 / 42%) 0px 0px 35px;
+    position: absolute;
+    top: 50%;
+    padding: 1rem;
+    left: 0px;
+    transform: translate(50%, 50%);
+}
+
+.css-z1ai9x::before {
+    z-index: -1;
+    background-color: var(--theme-ui-colors-alphaLighter, #e0e7ff);
+    border-color: transparent;
+    transform: scale(0.5) perspective(15px);
+    opacity: 0;
+}
+
+.css-z1ai9x::after,
+.css-z1ai9x::before {
+    content: " ";
+    position: absolute;
+    z-index: -2;
+    width: 100%;
+    height: 100%;
+    border-radius: inherit;
+    border-width: 3px;
+    border-style: solid;
+    transition-duration: 0.35s;
+}
+
+.css-z1ai9x::after {
+    z-index: -2;
+    transform: perspective(1px) translateZ(0px);
+    transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, 0.1);
+    background-color: var(--theme-ui-colors-white, #fff);
+    border-color: var(--theme-ui-colors-white, #fff);
+}
+
+.css-48swgr {
+    box-sizing: border-box;
+    margin: 0px;
+    min-width: 0px;
+    width: 10px;
+    height: 10px;
+    border-bottom: 3px solid currentcolor;
+    border-left: 3px solid currentcolor;
+    transform: rotate(45deg);
+}
+
+.css-1op54md {
+    box-sizing: border-box;
+    margin: 0px 0.5rem 0px 0px;
+    appearance: none;
+    text-align: center;
+    line-height: inherit;
+    text-decoration: none;
+    font-size: inherit;
+    border: 1px;
+    font-family: Poppins,
+        sans-serif;
+    display: inline-flex;
+    -webkit-box-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+    outline: 0px;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    cursor: pointer;
+    white-space: pre;
+    transition: all 250ms ease 0s;
+    z-index: 0;
+    color: var(--theme-ui-colors-alpha, #6366f1);
+    min-width: auto;
+    border-radius: 9999px;
+    box-shadow: rgb(140 152 164 / 42%) 0px 0px 35px;
+    position: absolute;
+    top: 50%;
+    padding: 1rem;
+    right: 0px;
+    transform: translate(-50%, 50%);
+}
+
+.css-1op54md::before {
+    z-index: -1;
+    background-color: var(--theme-ui-colors-alphaLighter, #e0e7ff);
+    border-color: transparent;
+    transform: scale(0.5) perspective(15px);
+    opacity: 0;
+}
+
+.css-1op54md::after,
+.css-1op54md::before {
+    content: " ";
+    position: absolute;
+    z-index: -2;
+    width: 100%;
+    height: 100%;
+    border-radius: inherit;
+    border-width: 3px;
+    border-style: solid;
+    transition-duration: 0.35s;
+}
+
+.css-1tdj8no {
+    box-sizing: border-box;
+    margin: 0px;
+    min-width: 0px;
+    width: 10px;
+    height: 10px;
+    border-bottom: 3px solid currentcolor;
+    border-left: 3px solid currentcolor;
+    transform: rotate(225deg);
+}
+
+.css-1op54md::after {
+    z-index: -2;
+    transform: perspective(1px) translateZ(0px);
+    transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, 0.1);
+    background-color: var(--theme-ui-colors-white, #fff);
+    border-color: var(--theme-ui-colors-white, #fff);
+}
+
+.css-ad53z1 {
+    box-sizing: border-box;
+    margin: 0;
+    min-width: 0;
+    min-width: auto;
+    border-top-style: solid;
+    border-top-color: transparent;
+    border-top-width: 2px;
+    height: 0;
 }
