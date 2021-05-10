@@ -2001,3 +2001,15 @@ $value_six: 1550px;
     }
 
 }
+
+@media (max-width: 996px) {
+    .carousel-control-next {
+        margin-right: 0px;
+        visibility: collapse;
+    }
+
+    .carousel-control-prev {
+        margin-right: 0px;
+        visibility: collapse;
+    }
+}
