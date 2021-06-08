@@ -53,7 +53,7 @@ Default CSS
 ===============================*/
 $font_family: 'Nunito Sans',
 sans-serif;
-$template_color: #e12e32;
+$template_color: #38c8bf;
 $white_color: #ffffff;
 $black_color: #494f65;
 $paragraph_color: #7a829f;
@@ -208,7 +208,7 @@ p::selection {
 }
 
 .btn-primary {
-    background-image: linear-gradient(to right, #d5161a, #dc3545);
+    background-image: linear-gradient(to right, #85e5e5, #38c8bf);
     color: $white_color !important;
 
     &:hover,
@@ -968,7 +968,7 @@ Navbar CSS
             border: none;
             color: $black_color;
             border-radius: 5px;
-            background-image: linear-gradient(to right, #d5161a, #dc3545);
+            background-image: linear-gradient(to right, #85e5e5, #38c8bf);
             padding: 10px;
 
             .navbar-toggler-icon {
@@ -1152,7 +1152,7 @@ Main Banner CSS
         ;
 
         span {
-            color: #dc3545;
+            color: #38c8bf;
             position: relative;
             z-index: 1;
 
@@ -2029,7 +2029,7 @@ Analysis CSS
                 top: 6px;
                 width: 20px;
                 height: 20px;
-                color: #d5161a;
+                color: #85e5e5;
                 background: $template_color;
                 -webkit-clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
                 clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
@@ -2481,7 +2481,7 @@ Working Process CSS
     }
 
     span {
-        color: #dc3545;
+        color: #38c8bf;
         font-weight: 700;
     }
 }
@@ -2972,7 +2972,7 @@ Pricing CSS
 }
 
 .border-vermelha {
-    border: solid 0.5px #d5161a;
+    border: solid 0.5px #85e5e5;
     box-shadow: 7px 5px 30px 0 rgb(255 0 0 / 15%) !important;
 }
 
@@ -3095,7 +3095,7 @@ Pricing CSS
     }
 
     i.icofont-verification-check {
-        color: #d5161a;
+        color: #85e5e5;
     }
 
     i.icofont-close {
@@ -5416,7 +5416,7 @@ Footer CSS
     h3 {
         text-transform: uppercase;
         margin-bottom: 30px;
-        color: #d5161a;
+        color: #85e5e5;
 
         font: {
             size: 22px;
@@ -5535,7 +5535,7 @@ Footer CSS
 
             a {
                 /*border: 1px solid $black_color;*/
-                background-color: #dc3545;
+                background-color: #38c8bf;
                 width: 32px;
                 height: 32px;
                 text-align: center;
@@ -5817,7 +5817,7 @@ Go Top CSS
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #dc3545;
+    background: #38c8bf;
     border-radius: 100px;
 }
 
@@ -5909,7 +5909,7 @@ Go Top CSS
 .review-item .review-thumb {
     margin: -30px 30px 0;
     padding: 15px 30px;
-    background: -webkit-linear-gradient(16deg, #dc3545 0, #d5161a 100%);
+    background: -webkit-linear-gradient(16deg, #38c8bf 0, #85e5e5 100%);
     ;
     border-radius: 10px;
     position: relative;
@@ -5924,7 +5924,7 @@ Go Top CSS
     }
 
     span {
-        color: #ffb9c0;
+        color: #b4fffa;
         font-size: 12px;
     }
 }
@@ -5962,7 +5962,7 @@ Go Top CSS
     text-align: right;
 
     a {
-        color: #ffb9c0;
+        color: #b4fffa;
     }
 }
 
@@ -6305,7 +6305,7 @@ Go Top CSS
     }
 
     h4 {
-        color: #e12e32;
+        color: #38c8bf;
         text-transform: uppercase;
         font-size: 16px;
         font-weight: 400;
