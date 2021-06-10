@@ -50,6 +50,7 @@ import { BlogComponent } from './components/pages/blog/blog.component';
 import { PacotesComponent } from './components/pages/pacotes/pacotes.component';
 import { AspotbizComponent } from './components/pages/aspotbiz/aspotbiz.component';
 import { RedesSociaisPizzariaComponent } from './components/pages/redes-sociais-pizzaria/redes-sociais-pizzaria.component';
+import { PoliticaDePrivacidadeComponent } from './components/pages/politica-de-privacidade/politica-de-privacidade.component';
 
 @NgModule({
   declarations: [
@@ -100,7 +101,8 @@ import { RedesSociaisPizzariaComponent } from './components/pages/redes-sociais-
     BlogComponent,
     PacotesComponent,
     AspotbizComponent,
-    RedesSociaisPizzariaComponent, 
+    RedesSociaisPizzariaComponent,
+    PoliticaDePrivacidadeComponent, 
   ],
   imports: [
     BrowserModule,

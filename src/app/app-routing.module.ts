@@ -41,6 +41,7 @@ import { BlogComponent } from './components/pages/blog/blog.component';
 import { PacotesComponent } from './components/pages/pacotes/pacotes.component';
 import { AspotbizComponent } from './components/pages/aspotbiz/aspotbiz.component';
 import { RedesSociaisPizzariaComponent } from './components/pages/redes-sociais-pizzaria/redes-sociais-pizzaria.component';
+import { PoliticaDePrivacidadeComponent } from './components/pages/politica-de-privacidade/politica-de-privacidade.component';
 
 const routes: Routes = [
     {path: '', component: HomeOneComponent},
@@ -85,6 +86,7 @@ const routes: Routes = [
     {path: 'pacotes', component: PacotesComponent},
     {path: 'aspotbiz', component: AspotbizComponent},
     {path: 'redes-sociais-pizzaria', component: RedesSociaisPizzariaComponent},
+    { path: 'politica-de-privacidade', component: PoliticaDePrivacidadeComponent},
 
     // Here add new pages component
 
